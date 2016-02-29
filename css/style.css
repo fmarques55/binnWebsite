@@ -159,6 +159,7 @@ footer .social a i{
 }
 #menu .navbar-collapse {
     padding-left: 20px;
+    margin-top: 10%;
 }
 #menu .navbar-header, #menu .navbar-nav, #menu .navbar-nav li {
     float: none;
@@ -270,7 +271,7 @@ footer .social a i{
 	top: 50%;
 	width: 200px;
 }
-/* 
+/*
     [PAGES STYLE]
 */
 
@@ -280,7 +281,8 @@ footer .social a i{
 }
 
 .home .bg-parallax {
-    background: url(../images/cover.jpg);
+    background: url(../images/54.jpg);
+    height: 100%;
     background-color: #222;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -1047,7 +1049,7 @@ footer .social a i{
     color: #DDAD02;
 }
 /* Responsive CSS */
-@media only screen and (max-width: 871px){ 
+@media only screen and (max-width: 871px){
     .post .post-title {
         position: relative;
         right: inherit;
@@ -1061,8 +1063,8 @@ footer .social a i{
         margin-bottom: 15px;
         margin-top: 10px;
     }
-    .blog-comments .blog-comment-content .comment-meta .media-heading, 
-    .blog-comments .blog-comment-content .comment-meta .in-reply, 
+    .blog-comments .blog-comment-content .comment-meta .media-heading,
+    .blog-comments .blog-comment-content .comment-meta .in-reply,
     .blog-comments .blog-comment-content .comment-meta span.time {
         display: block;
         padding-left: 0;
@@ -1126,10 +1128,10 @@ footer .social a i{
         margin: 10px 0 20px;
         position: relative;
         line-height: 70px;
-    }    
-    
+    }
+
 }
-@media only screen and (min-width: 481px) and (max-width: 991px){    
+@media only screen and (min-width: 481px) and (max-width: 991px){
     .media figure.pull-left {
         float: none !important;
         padding-bottom: 20px;
@@ -1192,7 +1194,7 @@ footer .social a i{
 
 
 
-@media only screen and (min-width: 871px) and (max-width: 991px){    
+@media only screen and (min-width: 871px) and (max-width: 991px){
     #menu .navbar-nav a,#menu .navbar-nav li{
         float: left;
     }
