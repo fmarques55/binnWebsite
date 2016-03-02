@@ -20,6 +20,7 @@
 
   <!--Template Styles-->
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/binn.css" rel="stylesheet">
   <link href="css/scheme/purple.css" rel="stylesheet">
 
   <!--[if lt IE 9]>
@@ -49,7 +50,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="index.html#">
-            <img src="images/binn_logo.png" alt="logo" style="width: 100%;"><br>
+            <img class="site-logo" src="images/binn_logo.png" alt="logo"><br>
           </a>
         </div>
 
@@ -72,9 +73,9 @@
 
     <div id="container">
       <!-- BEGIN HOME -->
-      <section id="home" class="home" style="background-position: 50% 0px;">
+      <section id="home" class="home">
 
-        <div class="bg-parallax screen-height" style="height: 629px;">
+        <div class="bg-parallax">
           <div class="home-overlay"></div>
           <div class="intro header-content">
             <h3>Seja Bem Vindo(a),</h3>
@@ -178,59 +179,39 @@
           <div class="col-md-12 mg-bt-80">
             <div class="row portfolioContainer  text-center">
               <div class="col-md-4 col-xs-6 portfolio-item websites">
-                <a class="popup" href="images/portfolio/portfolio-thumb-1.jpg" data-lightbox-gallery="team-portfolio">
+                <a class="popup" href="images/portfolio/portfolio-thumb-1.jpg" title="Site do escritório 'Verde Agua Interiores'" data-lightbox-gallery="team-portfolio">
                   <span class="project-hover">
-                                        <span>Site Verde Agua Design de Interiores
+                                        <span>Site do escritório 'Verde Agua Interiores'
                                         </span>
                   </span>
                   <img src="images/portfolio/portfolio-thumb-1.jpg" alt="portfolio-thumb-1">
                 </a>
               </div>
-              <div class="col-md-4 col-xs-6 portfolio-item apps">
-                <a class="popup" href="images/portfolio/portfolio-thumb-5.jpg" data-lightbox-gallery="team-portfolio">
-                  <span class="project-hover">
-                                        <span>Sistema de cadastro de alunos da 'Vivace Pilates'
-                                        </span>
-                  </span>
-                  <img src="images/portfolio/portfolio-thumb-5.jpg" alt="portfolio-thumb-5">
-                </a>
-              </div>
-              <!-- Starts here -->
-              <div class="col-md-4 col-xs-6 portfolio-item apps">
-                <a class="popup" href="images/portfolio/portfolio-thumb-5.jpg" data-lightbox-gallery="team-portfolio">
-                  <span class="project-hover">
-                                        <span>Sistema de cadastro de alunos da 'Vivace Pilates'
-                                        </span>
-                  </span>
-                  <img src="images/portfolio/portfolio-thumb-5.jpg" alt="portfolio-thumb-5">
-                </a>
-              </div>
-              <div class="col-md-4 col-xs-6 portfolio-item apps">
-                <a class="popup" href="images/portfolio/portfolio-thumb-5.jpg" data-lightbox-gallery="team-portfolio">
-                  <span class="project-hover">
-                                        <span>Sistema de cadastro de alunos da 'Vivace Pilates'
-                                        </span>
-                  </span>
-                  <img src="images/portfolio/portfolio-thumb-5.jpg" alt="portfolio-thumb-5">
-                </a>
-              </div>
-              <div class="col-md-4 col-xs-6 portfolio-item apps">
-                <a class="popup" href="images/portfolio/portfolio-thumb-5.jpg" data-lightbox-gallery="team-portfolio">
-                  <span class="project-hover">
-                                        <span>Sistema de cadastro de alunos da 'Vivace Pilates'
-                                        </span>
-                  </span>
-                  <img src="images/portfolio/portfolio-thumb-5.jpg" alt="portfolio-thumb-5">
-                </a>
-              </div>
-              <!-- Finish here -->
               <div class="col-md-4 col-xs-6 portfolio-item websites">
-                <a class="popup" href="images/portfolio/iDrink.png" title="Image with title" data-lightbox-gallery="team-portfolio">
+                <a class="popup" href="images/portfolio/portfolio-thumb-3.jpg" title="Site do Studio de Pilates 'Vivace'" data-lightbox-gallery="team-portfolio">
+                  <span class="project-hover">
+                                        <span>Site do Studio de Pilates 'Vivace'
+                                        </span>
+                  </span>
+                  <img src="images/portfolio/portfolio-thumb-3.jpg" alt="portfolio-thumb-1">
+                </a>
+              </div>
+              <div class="col-md-4 col-xs-6 portfolio-item apps">
+                <a class="popup" href="images/portfolio/portfolio-thumb-5.jpg"  title="Sistema de cadastro de alunos da 'Vivace Pilates'" data-lightbox-gallery="team-portfolio">
+                  <span class="project-hover">
+                                        <span>Sistema de cadastro de alunos da 'Vivace Pilates'
+                                        </span>
+                  </span>
+                  <img src="images/portfolio/portfolio-thumb-5.jpg" alt="portfolio-thumb-5">
+                </a>
+              </div>
+              <div class="col-md-4 col-xs-6 portfolio-item apps">
+                <a class="popup" href="images/portfolio/portfolio-thumb-3.jpg" title="Aplicação  Web/Mobile da distribuidora de bebidas 'xDrink'" data-lightbox-gallery="team-portfolio">
                   <span class="project-hover">
                                         <span>Aplicação Web da distribuidora de Bebidas 'xDrink'
                                         </span>
                   </span>
-                  <img src="images/portfolio/iDrink.png" alt="portfolio-thumb-3">
+                  <img src="images/portfolio/portfolio-thumb-3.jpg" alt="portfolio-thumb-3">
                 </a>
               </div>
               <div class="col-md-4 col-xs-6 portfolio-item apps">
@@ -245,7 +226,7 @@
               <div class="col-md-4 col-xs-6 portfolio-item business-intelligence">
                 <a class="popup" href="images/portfolio/portfolio-thumb-2.jpg" data-lightbox-gallery="team-portfolio">
                   <span class="project-hover">
-                                        <span>Foto de um B.I
+                                        <span>B.I Agência Espacial Brasileira
                                         </span>
                   </span>
                   <img src="images/portfolio/portfolio-thumb-2.jpg" alt="portfolio-thumb-2">
@@ -324,14 +305,15 @@
           </div>
           <div class="col-lg-12">
             <div class="row mg-bt-40">
-              <div class="col-md-3 col-sm-6 col-xs-12">
+              <!-- <div class="col-md-3 col-sm-6 col-xs-12"> -->
+              <div class="col-md-4">
                 <div class="teams">
                   <div class="pict">
-                    <img src="images/team/01.jpg" alt="Team 1">
+                    <img src="images/team/avatar.png" alt="Team 1">
                   </div>
                   <div class="desc">
-                    <h3>John Doe</h3>
-                    <span>Web Developer</span>
+                    <h3>Felipe Sampaio</h3>
+                    <span>Desenvolvedor</span>
                     <div class="social">
                       <a href="javascript:;"><i class="fa fa-facebook"></i></a>
                       <a href="javascript:;"><i class="fa fa-twitter"></i></a>
@@ -342,14 +324,15 @@
 
                 </div>
               </div>
-              <div class="col-md-3 col-sm-6 col-xs-12">
+              <!-- <div class="col-md-3 col-sm-6 col-xs-12"> -->
+              <div class="col-md-4">
                 <div class="teams">
                   <div class="pict">
-                    <img src="images/team/02.jpg" alt="Team 1">
+                    <img src="images/team/avatar.png" alt="Team 1">
                   </div>
                   <div class="desc">
-                    <h3>Jane Doe</h3>
-                    <span>Creative Writer</span>
+                    <h3>Lucas Rosa</h3>
+                    <span>Gerente de Projetos Consultor BI e SEO</span>
                     <div class="social">
                       <a href="javascript:;"><i class="fa fa-pinterest"></i></a>
                       <a href="javascript:;"><i class="fa fa-twitter"></i></a>
@@ -360,14 +343,15 @@
 
                 </div>
               </div>
-              <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="col-md-4">
+              <!-- <div class="col-md-3 col-sm-6 col-xs-12"> -->
                 <div class="teams">
                   <div class="pict">
-                    <img src="images/team/03.jpg" alt="Team 1">
+                    <img src="images/team/avatar.png" alt="Team 1">
                   </div>
                   <div class="desc">
-                    <h3>John Doe</h3>
-                    <span>Designer</span>
+                    <h3>Matheus Mello</h3>
+                    <span>Desenvolvedor</span>
                     <div class="social">
                       <a href="javascript:;"><i class="fa fa-dribbble"></i></a>
                       <a href="javascript:;"><i class="fa fa-google-plus"></i></a>
@@ -378,7 +362,7 @@
 
                 </div>
               </div>
-              <div class="col-md-3 col-sm-6 col-xs-12">
+              <!-- <div class="col-md-3 col-sm-6 col-xs-12">
                 <div class="teams">
                   <div class="pict">
                     <img src="images/team/04.jpg" alt="Team 1">
@@ -394,7 +378,7 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -496,7 +480,7 @@
       <!-- END BLOG -->
 
       <!-- BEGIN SUBSCRIPTION -->
-      <section class="subscribe text-center">
+      <!-- <section class="subscribe text-center">
         <div class="row">
           <div class="col-md-12">
             <h3>Stay Tuned by subscribing to our Newsletter.</h3>
@@ -508,11 +492,11 @@
             </form>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- END SUBSCRIPTION -->
 
       <!-- BEGIN CTA -->
-      <section class="cta text-center">
+      <!-- <section class="cta text-center">
         <div class="row">
           <div class="col-md-12">
             <h3>Purchase Team Pro and Get Access To</h3>
@@ -520,7 +504,7 @@
             <a href="http://scripteden.com/download/team-creative-business-portfolio-template/" class="btn">Purchase Now</a>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- END CTA -->
 
       <!-- BEGIN CONTACT -->
@@ -528,26 +512,26 @@
         <div class="row">
           <div class="col-md-12 mg-bt-80">
             <div class="header-content">
-              <h2>Contact Us</h2>
-              <h3>Let us know if you have any query</h3>
+              <h2>Contato</h2>
+              <h3>Tire suas dúvidas, envie-nos uma mensagem!</h3>
             </div>
           </div>
           <div class="col-sm-6 col-md-6">
             <div class="address">
-              <h2>Get in touch</h2>
-              <p>Quod cum ita sit, paucae domus stud torpentis exundant, vocali sonu, perflabili tinnitu fidium resultantes. denique pro philosopho cantor et in locum oratoris doctor a</p>
-              <h2>Team Office</h2>
+              <h2>Agende uma reunião</h2>
+              <p>Oferecemos uma diversidade de serviços e estamos de braços abertos para atender as suas expectativas, entre em contato e agende conosco uma reunião</p>
+              <h2>Outras formas de contato</h2>
               <ul class="office">
-                <li><i class="fa fa-map-marker"></i> <strong>Address:</strong> 1234 Street Name, City Name, United States</li>
-                <li><i class="fa fa-phone"></i> <strong>Phone:</strong> (123) 456-7890</li>
-                <li><i class="fa fa-envelope"></i> <strong>Email:</strong> <a href="mailto:mail@example.com">mail@example.com</a></li>
+                <!-- <li><i class="fa fa-map-marker"></i> <strong>Endereço:</strong> 1234 Street Name, City Name, United States</li> -->
+                <li><i class="fa fa-phone"></i> <strong>Telefones:</strong> (61) 8149-4249 - (61) 8115-0028 - (61) 8590-8990</li>
+                <li><i class="fa fa-envelope"></i> <strong>Email:</strong> <a href="mailto:binn.sac@gmail.com">binn.sac@gmail.com</a></li>
               </ul>
             </div>
           </div>
           <div class="col-sm-6 col-md-6">
             <form id="contact-form" role="form">
               <div class="form-group">
-                <input type="text" class="form-control" id="c_name" placeholder="Name">
+                <input type="text" class="form-control" id="c_name" placeholder="Nome">
               </div>
 
               <div class="form-group">
@@ -555,10 +539,10 @@
               </div>
 
               <div class="form-group">
-                <textarea class="form-control" id="c_message" rows="10" placeholder="Message"></textarea>
+                <textarea class="form-control" id="c_message" rows="10" placeholder="Mensagem"></textarea>
               </div>
               <br/>
-              <button type="submit" class="btn">Send Message</button>
+              <button type="submit" class="btn">Enviar Mensagem</button>
               <div class="ajax-response"></div>
             </form>
           </div>
