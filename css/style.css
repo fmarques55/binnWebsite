@@ -283,7 +283,7 @@ footer .social a i{
   height: 100%;
 }
 .home .bg-parallax {
-    background: url(../images/54.jpg);
+    background: url(../images/81.jpg);
     height: 100vh;
     background-color: #222;
     background-attachment: fixed;
@@ -651,6 +651,7 @@ footer .social a i{
     font-weight: 400;
 }
 .about .teams .desc {
+    min-height: 221px;
     padding:25px;
 }
 .about .teams span {
