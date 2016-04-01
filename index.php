@@ -17,7 +17,7 @@
   <link href="css/lib/font-awesome.css" rel="stylesheet">
   <link href="css/lib/nivo-lightbox.css" rel="stylesheet">
   <link href="css/lib/nivo-themes/default/default.css" rel="stylesheet">
-  <?php require 'php/contact.php'; ?>
+
   <!--Template Styles-->
   <link href="css/style.css" rel="stylesheet">
   <link href="css/binn.css" rel="stylesheet">
@@ -539,24 +539,23 @@
             </div>
           </div>
           <div class="col-sm-6 col-md-6">
-            <form id="contact-form" role="form" method="post" action="">
-              <div class="form-group">
-                <input type="text" class="form-control" id="c_name" name="c_name" placeholder="Nome">
-              </div>
+                         <form id="contact-form" role="form">
+                             <div class="form-group">
+                                 <input type="text" class="form-control" id="c_name" placeholder="Name">
+                             </div>
 
-              <div class="form-group">
-                <input type="email" class="form-control" id="c_email" name="c_email" placeholder="Email">
-              </div>
+                             <div class="form-group">
+                                 <input type="email" class="form-control" id="c_email" placeholder="Email">
+                             </div>
 
-              <div class="form-group">
-                <textarea class="form-control" id="c_message" name="c_message" rows="10" placeholder="Mensagem"></textarea>
-              </div>
-              <br/>
-              <input id="submit" name="enviar" type="submit" value="Enviar Mensagem"  class="btn"></input>
-              <!-- <div class="ajax-response"></div> -->
-            </form>
-            <?php echo $result; ?>
-          </div>
+                             <div class="form-group">
+                                 <textarea class="form-control" id="c_message" rows="10" placeholder="Message"></textarea>
+                             </div>
+                             <br/>
+                             <button type="submit" class="btn">Enviar</button>
+                             <div class="ajax-response" style="margin-top: 5px;"><div id="msgSubmit" class="alert alert-success hidden">Obrigado! Entraremos em contato</div></div>
+                         </form>
+                     </div>
         </div>
       </section>
       <!-- END CONTACT -->
@@ -594,7 +593,7 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="js/lib/jquery.superslides.min.js"></script>
   <script src="js/lib/smoothscroll.js"></script>
-  <script src="js/lib/jquery.sudoslider.min.js"></script>
+  <!-- <script src="js/lib/jquery.sudoslider.min.js"></script> -->
   <script src="js/lib/jquery.bxslider.min.js"></script>
   <script src="js/lib/jquery.mixitup.min.js"></script>
   <script src="js/lib/jquery.backtotop.js"></script>
