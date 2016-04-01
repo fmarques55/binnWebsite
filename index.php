@@ -49,7 +49,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html#">
+          <a class="navbar-brand" href="">
             <img class="site-logo" src="images/binn_logo.png" alt="logo"><br>
           </a>
         </div>
@@ -104,7 +104,7 @@
                     <i class="fa fa-paint-brush"></i>
                   </div>
                   <h3 class="heading">Web Design</h3>
-                  <p class="description">Desenvolvimento de Portais para seu negócio </p>
+                  <p class="description">Desenvolvimento de Portais para o seu negócio</p>
                 </div>
               </div>
               <div class="col-md-4 col-sm-6 col-xs-12">
@@ -113,7 +113,7 @@
                     <i class="fa fa-mobile"></i>
                   </div>
                   <h3 class="heading">Aplicativos Mobile</h3>
-                  <p class="description">Aplicativos para os sistemas operacionais Mobile Android e iOS.</p>
+                  <p class="description">Desenvolvimento de aplicativos Android e iOS</p>
                 </div>
               </div>
               <div class="col-md-4 col-sm-6 col-xs-12">
@@ -122,7 +122,7 @@
                     <i class="fa fa-pie-chart"></i>
                   </div>
                   <h3 class="heading">Business Intelligence</h3>
-                  <p class="description">Recolhimento de informações dos diversos Sistemas de Informação do seu negócio. </p>
+                  <p class="description">Ferramenta de BI para análise do seu negócio</p>
                 </div>
               </div>
               <div class="col-md-4 col-sm-6 col-xs-12">
@@ -131,7 +131,7 @@
                     <i class="fa fa-heartbeat"></i>
                   </div>
                   <h3 class="heading">Suporte</h3>
-                  <p class="description">Conserto de computadores, formatação, backups, instalação de sistemas operacionais e software específicos.</p>
+                  <p class="description">Serviço de reparo de equipamentos</p>
                 </div>
               </div>
               <div class="col-md-4 col-sm-6 col-xs-12">
@@ -139,8 +139,8 @@
                   <div class="icon-holder">
                     <i class="fa fa-code"></i>
                   </div>
-                  <h3 class="heading">Desenvolvimento de Aplicações</h3>
-                  <p class="description">Sistemas locais e sistemas de rede interna</p>
+                  <h3 class="heading">Desenvolvimento de Sistemas</h3>
+                  <p class="description">Desenvolvimento de soluções para os seus problemas</p>
                 </div>
               </div>
               <div class="col-md-4 col-sm-6 col-xs-12">
@@ -149,7 +149,7 @@
                     <i class="fa fa-search"></i>
                   </div>
                   <h3 class="heading">Search Engine Optimization</h3>
-                  <p class="description">O seu negócio com maior visibilidade nos motores de busca mais usados do mundo.</p>
+                  <p class="description">Maior visibilidade no Google</p>
                 </div>
               </div>
             </div>
@@ -236,6 +236,15 @@
                                         </span>
                   </span>
                   <img src="images/portfolio/bi_service.png" alt="portfolio-thumb-2">
+                </a>
+              </div>
+              <div class="col-md-4 col-xs-6 portfolio-item websites">
+                <a class="popup" href="images/portfolio/Netflixado.png" data-lightbox-gallery="team-portfolio">
+                  <span class="project-hover">
+                                        <span>Portal de cinema
+                                        </span>
+                  </span>
+                  <img src="images/portfolio/Netflixado.png" alt="portfolio-thumb-2" style="height: 345px !important">
                 </a>
               </div>
 
@@ -408,9 +417,10 @@
                   <li><img src="images/clients/aeb_logo.png" alt="logo-1" /></li>
                   <li><img src="images/clients/lmaestri_logo.png" alt="logo-1" style="width: 90px !important;" /></li>
                   <li><img src="images/clients/verdeagua_logo.png" alt="logo-1" /></li>
-                  <li><img src="images/clients/logo1.png" alt="logo-1"></li>
+                  <!-- <li><img src="images/clients/logo1.png" alt="logo-1"></li>
                   <li><img src="images/clients/logo2.png" alt="logo-1"></li>
-                  <li><img src="images/clients/logo3.png" alt="logo-1"></li>
+                  <li><img src="images/clients/logo3.png" alt="logo-1"></li> -->
+                  <li><img src="images/clients/rosa.png" alt="logo-1" style="width: 90px !important;"></li>
                   <!-- <li><img src="images/clients/logo4.png" alt="logo-1"></li>
                   <li><img src="images/clients/logo5.png" alt="logo-1"></li>
                   <li><img src="images/clients/logo6.png" alt="logo-1"></li>
