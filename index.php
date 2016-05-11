@@ -248,6 +248,16 @@
                 </a>
               </div>
 
+              <div class="col-md-4 col-xs-6 portfolio-item websites">
+                <a class="popup" href="images/portfolio/astronauta_banda.png" data-lightbox-gallery="team-portfolio">
+                  <span class="project-hover">
+                                        <span>Banda Astronauta e Seus Amigos
+                                        </span>
+                  </span>
+                  <img src="images/portfolio/astronauta_banda.png" alt="portfolio-thumb-2" style="height: 345px !important">
+                </a>
+              </div>
+
               <!-- <div class="col-md-4 col-xs-6 portfolio-item business-intelligence">
                 <a class="popup" href="images/portfolio/portfolio-thumb-6.jpg" data-lightbox-gallery="team-portfolio">
                   <span class="project-hover">
