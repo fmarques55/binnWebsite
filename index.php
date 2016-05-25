@@ -244,7 +244,7 @@
                                         <span>Portal de cinema
                                         </span>
                   </span>
-                  <img src="images/portfolio/Netflixado.png" alt="portfolio-thumb-2" style="height: 345px !important">
+                  <img src="images/portfolio/Netflixado.png" alt="portfolio-thumb-2">
                 </a>
               </div>
 
@@ -254,7 +254,7 @@
                                         <span>Banda Astronauta e Seus Amigos
                                         </span>
                   </span>
-                  <img src="images/portfolio/astronauta_banda.png" alt="portfolio-thumb-2" style="height: 345px !important">
+                  <img src="images/portfolio/astronauta_site.png" alt="portfolio-thumb-2">
                 </a>
               </div>
 
