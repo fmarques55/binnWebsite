@@ -249,7 +249,7 @@
               </div>
 
               <div class="col-md-4 col-xs-6 portfolio-item websites">
-                <a class="popup" href="images/portfolio/astronauta_banda.png" data-lightbox-gallery="team-portfolio">
+                <a class="popup" href="images/portfolio/astronauta_site.png" data-lightbox-gallery="team-portfolio">
                   <span class="project-hover">
                                         <span>Banda Astronauta e Seus Amigos
                                         </span>
